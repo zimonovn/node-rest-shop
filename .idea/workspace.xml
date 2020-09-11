@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1110ae9-46f0-475f-b4da-cb37d54a95dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T02:50:22.778ZGDVHJyQR-580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T02:55:28.301ZGDVHJyQR-580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T03:11:20.369ZGDVHJyQR-580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T03:28:13.228ZGDVHJyQR-580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T04:07:48.989ZGDVHJyQR-580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T04:20:15.996ZGDVHJyQR-580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T04:48:48.535ZGDVHJyQR-580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-11T04:49:52.389ZGDVHJyQR-580.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/routes/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -25,12 +36,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h4hUmjLr9GS47bOTyhKn5EZ27M" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,7 +68,7 @@
       <updated>1599276289367</updated>
       <workItem from="1599276290414" duration="1974000" />
       <workItem from="1599612386840" duration="9183000" />
-      <workItem from="1599679364602" duration="11369000" />
+      <workItem from="1599679364602" duration="22831000" />
     </task>
     <task id="LOCAL-00001" summary="Added requests">
       <created>1599684747143</created>
@@ -63,25 +77,34 @@
       <option name="project" value="LOCAL" />
       <updated>1599684747143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Image">
+      <created>1599792244102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599792244102</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added requests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added requests" />
+    <MESSAGE value="Added Image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Image" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599792201983">
+    <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599792289102">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3008.1612@0.23.3008.1612" timestamp="1599792201983" />
-    <state x="1946" y="390" key="CommitChangelistDialog2" timestamp="1599684746981">
+    <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3008.1612@0.23.3008.1612" timestamp="1599792289102" />
+    <state x="1946" y="390" key="CommitChangelistDialog2" timestamp="1599792244007">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1946" y="390" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1599684746981" />
+    <state x="1946" y="390" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1599792244007" />
     <state x="2150" y="718" key="Github.ShareDialog" timestamp="1599624959861">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
@@ -90,9 +113,9 @@
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
     <state x="2106" y="526" key="Github.UntrackedFilesDialog/0.23.3008.1612@0.23.3008.1612" timestamp="1599624964131" />
-    <state x="1969" y="554" key="Vcs.Push.Dialog.v2" timestamp="1599684750558">
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2" timestamp="1599801806252">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1969" y="554" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1599684750558" />
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1599801806252" />
   </component>
 </project>
