@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1110ae9-46f0-475f-b4da-cb37d54a95dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +54,34 @@
       <updated>1599276289367</updated>
       <workItem from="1599276290414" duration="1974000" />
       <workItem from="1599612386840" duration="9183000" />
-      <workItem from="1599679364602" duration="2863000" />
+      <workItem from="1599679364602" duration="11369000" />
     </task>
+    <task id="LOCAL-00001" summary="Added requests">
+      <created>1599684747143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599684747143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added requests" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599792201983">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3008.1612@0.23.3008.1612" timestamp="1599792201983" />
+    <state x="1946" y="390" key="CommitChangelistDialog2" timestamp="1599684746981">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="1946" y="390" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1599684746981" />
     <state x="2150" y="718" key="Github.ShareDialog" timestamp="1599624959861">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
@@ -68,5 +90,9 @@
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
     <state x="2106" y="526" key="Github.UntrackedFilesDialog/0.23.3008.1612@0.23.3008.1612" timestamp="1599624964131" />
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2" timestamp="1599684750558">
+      <screen x="0" y="23" width="3008" height="1612" />
+    </state>
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1599684750558" />
   </component>
 </project>
