@@ -3,9 +3,9 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const bodyParser = require('body-parser')
-const jsonParser = bodyParser.json()
-
+// const bodyParser = require('body-parser')
+// const jsonParser = bodyParser.json()
+require("dotenv").config();
 
 const User = require('../../models/user');
 
@@ -16,7 +16,7 @@ router.post('/signup', (req, res, next) => {
             if (user.length >= 1) {
                 return res.status(409).json({
                     message: 'Mail exist'
-                })
+                });
             } else {
                 bcrypt.hash(req.body.password, 10, (err, hash) => {
                     if (err) {
@@ -35,23 +35,24 @@ router.post('/signup', (req, res, next) => {
                                 console.log(result);
                                 res.status(201).json({
                                     message: 'User created'
-                                })
+                                });
                             })
                             .catch(err => {
                                 console.log(err);
                                 res.status(500).json({
                                     error: err
-                                })
+                                });
 
-                            })
+                            });
                     }
                 });
             }
-        })
+        });
 });
 
-router.post("/login", jsonParser, function (req, res, next) {
-    User.findOne({ email: req.body.email })
+// jsonParser, function - вставить в аргументы ниже
+router.post("/login", (req, res, next) =>{
+    User.find({ email: req.body.email })
         .exec()
         .then(user => {
             if (user.length < 1) {
@@ -71,7 +72,7 @@ router.post("/login", jsonParser, function (req, res, next) {
                             email: user[0].email,
                             userId: user[0]._id
                         },
-                        process.env.JWT_KEY,
+                        "process.env.JWT_KEY",
                         {
                             expiresIn:"1h"
                         }

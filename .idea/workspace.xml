@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1110ae9-46f0-475f-b4da-cb37d54a95dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
       <updated>1599276289367</updated>
       <workItem from="1599276290414" duration="1974000" />
       <workItem from="1599612386840" duration="9183000" />
-      <workItem from="1599679364602" duration="30490000" />
+      <workItem from="1599679364602" duration="33352000" />
     </task>
     <task id="LOCAL-00001" summary="Added requests">
       <created>1599684747143</created>
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599849297585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Signup and delete User">
+      <created>1599928816533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599928816533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,10 +106,10 @@
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
     <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3008.1612@0.23.3008.1612" timestamp="1599792289102" />
-    <state x="1946" y="390" key="CommitChangelistDialog2" timestamp="1599849297482">
+    <state x="1946" y="390" key="CommitChangelistDialog2" timestamp="1599928816420">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1946" y="390" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1599849297482" />
+    <state x="1946" y="390" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1599928816420" />
     <state x="2150" y="718" key="Github.ShareDialog" timestamp="1599624959861">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
@@ -115,9 +122,9 @@
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
     <state x="1108" y="735" key="VCS.ChangelistChooser/0.23.3008.1612@0.23.3008.1612" timestamp="1599864472429" />
-    <state x="1969" y="554" key="Vcs.Push.Dialog.v2" timestamp="1599849300400">
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2" timestamp="1599928819494">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1969" y="554" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1599849300400" />
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1599928819494" />
   </component>
 </project>
