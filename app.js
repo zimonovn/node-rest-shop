@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 
+
 const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/orders');
 const userRoutes = require('./api/routes/user');
@@ -14,7 +15,9 @@ mongoose.connect('mongodb+srv://stigi12345:'
     '@cluster0.cc2jl.mongodb.net/testDB01?retryWrites=true&w=majority',
     {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
+        useCreateIndex:true
+        // useFindAndModify: false
 }
 );
 mongoose.Promise = global.Promise;
