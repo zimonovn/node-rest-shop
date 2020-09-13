@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1110ae9-46f0-475f-b4da-cb37d54a95dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="d1110ae9-46f0-475f-b4da-cb37d54a95dc" name="Default Changelist" comment="Added Signup and delete User">
+      <change afterPath="$PROJECT_DIR$/api/controllers/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/middleware/check-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:41:06.983Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:41:46.299Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:42:07.586Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:42:22.736Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:42:47.678Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:43:20.078Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:46:35.847Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:48:51.755Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:49:37.335Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:49:37.889Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:49:38.472Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:49:48.681Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:50:02.024Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:50:08.114Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:50:46.245Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:53:18.899Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:55:22.197Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:55:38.556Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:56:05.019Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-12T20:58:08.988Zroyal-clipper-the-largest-full-rigged-sailing-ship-in-the-world-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/2020-09-13T03:22:07.624Z119030491_10157661788477224_4819468476429261476_n.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +81,7 @@
       <updated>1599276289367</updated>
       <workItem from="1599276290414" duration="1974000" />
       <workItem from="1599612386840" duration="9183000" />
-      <workItem from="1599679364602" duration="33352000" />
+      <workItem from="1599679364602" duration="41714000" />
     </task>
     <task id="LOCAL-00001" summary="Added requests">
       <created>1599684747143</created>
@@ -88,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599928816533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Signup and delete User">
+      <created>1599938994525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599938994525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,10 +136,10 @@
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
     <state x="1966" y="623" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3008.1612@0.23.3008.1612" timestamp="1599792289102" />
-    <state x="1946" y="390" key="CommitChangelistDialog2" timestamp="1599928816420">
+    <state x="1899" y="390" key="CommitChangelistDialog2" timestamp="1599969128970">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1946" y="390" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1599928816420" />
+    <state x="1899" y="390" key="CommitChangelistDialog2/0.23.3008.1612@0.23.3008.1612" timestamp="1599969128970" />
     <state x="2150" y="718" key="Github.ShareDialog" timestamp="1599624959861">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
@@ -122,9 +152,9 @@
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
     <state x="1108" y="735" key="VCS.ChangelistChooser/0.23.3008.1612@0.23.3008.1612" timestamp="1599864472429" />
-    <state x="1969" y="554" key="Vcs.Push.Dialog.v2" timestamp="1599928819494">
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2" timestamp="1599938997084">
       <screen x="0" y="23" width="3008" height="1612" />
     </state>
-    <state x="1969" y="554" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1599928819494" />
+    <state x="1969" y="554" key="Vcs.Push.Dialog.v2/0.23.3008.1612@0.23.3008.1612" timestamp="1599938997084" />
   </component>
 </project>
